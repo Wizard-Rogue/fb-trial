@@ -1,0 +1,15 @@
+one:
+  uid: MyString
+  provider: MyString
+  fname: MyString
+  lname: MyString
+  email: MyString
+  image: MyString
+
+two:
+  uid: MyString
+  provider: MyString
+  fname: MyString
+  lname: MyString
+  email: MyString
+  image: MyString

@@ -20,9 +20,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'faraday'
-gem 'nifty-generators'
-gem 'omniauth-facebook'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -39,5 +36,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
-gem "mocha", :group => :test
