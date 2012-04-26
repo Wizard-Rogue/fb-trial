@@ -7,8 +7,24 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="span2">
+		<h3>Ticker</h3>
+		<p>
+			<% if current_user %>
+				Welcome <%= current_user.uid %>!
+				<%= link_to "Sign Out", signout_path %><br/>
+				<%= current_user.provider %><br/>
+				%= current_user.fname %><br/>
+				%= current_user.lname %><br/>
+				%= current_user.image %><br/>
+				%= current_user.email %>
+			<% else %>
+				<%= link_to "Sign in with Facebook!", "/auth/facebook" %>
+			<% end %>
+		</p>
+	</div>
 
-<%= yield %>
+	<%= yield %>
 
 </body>
 </html>
